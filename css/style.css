@@ -1,60 +1,228 @@
 /*-------------------------------------------------
 GLOBALS CLASSES 
 -------------------------------------------------*/
-*{padding:0; margin:0;}
-body{font-family:"Trebuchet MS"; font-size:14px; color:#ffed71; background:url(../images/bg1.jpg);}
-img{border:none;}
-h1{ font-family:"Trebuchet MS"; font-size:22px; font-weight:normal;}
-h2{ font-family:"Trebuchet MS"; font-size:18px; font-weight:normal;}
-P{ line-height:20px;}
-a{text-decoration:none; color:#ffed71;}
-a:hover{color:#ffffff;}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    color: #ffed71;
+    background-color: gainsboro;
+}
+
+img {
+    border: none;
+}
+
+h1 {
+    font-family: "Trebuchet MS";
+    font-size: 22px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    font-weight: normal;
+}
+
+P {
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffed71;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
 /*-------------------------------------------------
 GENERAL CLASSES
 -------------------------------------------------*/
-.clearing { clear:both;}
-.marTop20{margin-top:20px;}
-.marTop30{margin-top:30px;}
-.marTop40{margin-top:40px;}
-.marRight30{margin-right:30px;}
-.bg-bottom{ background:none bottom !important;}
-.panel{}
-.title{}
-.content{}
-.button a{ text-decoration:none; background:url(../images/btn-bg.png) no-repeat; width:90px; height:30px; text-align:center; line-height:30px; display:block;}
-.button a:hover{background:url(../images/btn-bghover.png) no-repeat; color:#04192f;}
-.page-wrap{ width:960px; margin:0 auto; overflow:hidden;}
-.wrap{ width:960px; margin:0 auto; overflow:hidden;}
-.input-newsletter{ background:url(../images/newsletter-bg.png) no-repeat center; width:210px; height:46px; border:none; text-indent:10px; color:#fff;font-family:"Trebuchet MS"; font-size:14px;}
+.clearing {
+    clear: both;
+}
+
+.marTop20 {
+    margin-top: 20px;
+}
+
+.marTop30 {
+    margin-top: 30px;
+}
+
+.marTop40 {
+    margin-top: 40px;
+}
+
+.marRight30 {
+    margin-right: 30px;
+}
+
+.bg-bottom {
+    background: none bottom !important;
+}
+
+.panel {}
+
+.title {}
+
+.content {}
+
+.button a {
+    text-decoration: none;
+    background: url(../images/btn-bg.png) no-repeat;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+.button a:hover {
+    background: url(../images/btn-bghover.png) no-repeat;
+    color: #04192f;
+}
+
+.page-wrap {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.input-newsletter {
+    background: url(../images/newsletter-bg.png) no-repeat center;
+    width: 210px;
+    height: 46px;
+    border: none;
+    text-indent: 10px;
+    color: #fff;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
 
 /*-------------------------------------------------
 HEADER CLASSES
 -------------------------------------------------*/
-.header-wrap{ background:#000 url(../images/bg2.jpg) repeat-x; height:150px; width:100%; }
-.logo{ width:360px; margin:0 auto;}
-.logo h1{ color:#ffffff; font-size:45px; font-weight: normal; padding-top:70px; padding-bottom:40px;}
+.header-wrap {
+    background: #000 url(../images/bg2.jpg) repeat-x;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 23px;
+    padding-bottom: 40px;
+}
 
 /*-------------------------------------------------
 MENU CLASSES
 -------------------------------------------------*/
-.menu-wrap{ overflow:hidden; margin:25px auto 30px auto; width:960px;}
-.menu{ float:left; width:660px;}
-.menu ul li{ list-style:none; float:left; width:88px; text-align:center; line-height:40px; margin-right:10px;}
-.menu ul li a{ text-decoration:none; font-size:15px; font-weight:bold; text-transform:uppercase; text-align:center; display:block; color:#ffed71;}
-.menu ul li a:hover{ color:#ffffff;  background:url(../images/menu-btn.png) no-repeat;}
-.menu ul li a.active{ background:url(../images/menu-btn.png) no-repeat; color:#ffed71; width:88px; height:40px; color:#ffffff;}
+.menu-wrap {
+    overflow: hidden;
+    margin: 25px auto 30px auto;
+    width: 960px;
+}
+
+.menu {
+    float: left;
+    width: 660px;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    width: 88px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #ffed71;
+}
+
+.menu ul li a:hover {
+    color: #ffffff;
+    background: url(../images/menu-btn.png) no-repeat;
+}
+
+.menu ul li a.active {
+    background: url(../images/menu-btn.png) no-repeat;
+    color: #ffed71;
+    width: 88px;
+    height: 40px;
+    color: #ffffff;
+}
 
 /*-------------------------------------------------
 SOCIAL MEDIA CLASSES
 -------------------------------------------------*/
-.socia-wrap{ float:right; width:200px;}
-.socail{ overflow:hidden;}
-.socail ul li{ float:left; margin-right:15px; list-style:none;}
+.socia-wrap {
+    float: right;
+    width: 200px;
+}
+
+.socail {
+    overflow: hidden;
+}
+
+.socail ul li {
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+}
 
 /*-------------------------------------------------
 BANNER CLASSES
 -------------------------------------------------*/
-.banner-wrap{width:960px; overflow:hidden; margin:0 auto;}
-.banner{ height:430px; background:url(../images/banner-bg.png) no-repeat;}
-.banner .banner-img{ margin:0 auto; padding-top:54px; width:420px;}
-.shadow{ width:950px; height:38px; background:url(../images/shadow.png) no-repeat center; margin-bottom:45px;}
+.banner-wrap {
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 430px;
+    background: url(../images/banner-bg.png) no-repeat;
+}
+
+.banner .banner-img {
+    margin: 0 auto;
+    padding-top: 54px;
+    width: 420px;
+}
+
+.shadow {
+    width: 950px;
+    height: 38px;
+    background: url(../images/shadow.png) no-repeat center;
+    margin-bottom: 45px;
+}
